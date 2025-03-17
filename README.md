@@ -13,7 +13,7 @@ Before conducting any serious analysis, it is essential to count the customers a
 There are multiple sources of customer data:
 - **[E-commerce platform’s customer database](Knowing_the_Customer\Data\customer_database.csv)**: Records customer details when they sign up for an account online. This is where most customer details should be found.
 - **In-house CRM (Customer Relationship Management) system**: Records customer details when they make a purchase over the phone or are otherwise onboarded as customers (excluding online purchases with a registered account).
-- **Raw transaction data**: Referred to as “purchases” or “sales,” this data includes purchases made “as a guest,” meaning customer records are not explicitly created at the time of purchase.
+- **[Raw transaction data](https://github.com/KhaingSuThway/Knowing_the_Customer/blob/4302be31b54275a773ea19efbe681c62f42c58dc/Data/purchases.csv)**: Referred to as “purchases” or “sales,” this data includes purchases made “as a guest,” meaning customer records are not explicitly created at the time of purchase.
 
 ### Challenges
 - **Overlapping Data Sources**: The existing data sources may not be mutually exclusive, leading to potential overlaps.
